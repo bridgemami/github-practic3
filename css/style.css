@@ -3,8 +3,17 @@ h1 {
     background-color: darksalmon;
 }
 
+.row {
+    display: flex;
+}
+
 p {
     font-size: 1.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:darkturquoise;
+    flex: 50%;
+}
+
+img {
+    flex: 50%;
 }
