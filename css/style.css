@@ -5,15 +5,16 @@ h1 {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 p {
     font-size: 1.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:darkturquoise;
-    flex: 50%;
+    flex: 30%;
 }
 
 img {
-    flex: 50%;
+    flex: 10%;
 }
